@@ -1,0 +1,30 @@
+# ================= Arduino =================
+*.hex
+*.elf
+*.bin
+
+# Arduino IDE build folders
+build/
+.tmp/
+*.ino~
+
+# ================= Python =================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# ================= Data / Logs =================
+*.csv
+*.log
+
+# ================= OS junk =================
+.DS_Store
+Thumbs.db
+
+# ================= Editor =================
+.vscode/
+.idea/
+*.swp
